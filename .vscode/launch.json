@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: main.py",
+      "type": "python",
+      "request": "launch",
+      "python": "${env:LOCALAPPDATA}\\Python\\pythoncore-3.12-64\\python.exe",
+      "program": "${workspaceFolder}\\main.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: main.py train",
+      "type": "python",
+      "request": "launch",
+      "python": "${env:LOCALAPPDATA}\\Python\\pythoncore-3.12-64\\python.exe",
+      "program": "${workspaceFolder}\\main.py",
+      "args": [
+        "train"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
