@@ -38,7 +38,7 @@
 cover_based_duel_ai
 ├─ ai
 ├─ app
-├─ docs
+├─ DocsImages
 ├─ engine
 ├─ models
 ├─ shooter
@@ -124,7 +124,6 @@ cover_based_duel_ai
 
 ## 개선하고 싶은 점
 
-- README에 관측값 / 행동 / 보상 설계 표 추가
 - 학습 결과 그래프 및 실험 로그 정리
 - 환경 파라미터 조절 기능 추가
 - 정책 비교 실험 정리
